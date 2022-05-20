@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!-- Change Site Title -->
+    <title>Crepixa</title>
+    <!-- Change Page Title-->
+    <link rel="icon" type="image/ico" href="assets/shared/others/Crepixa Icon.png"/>
+    <!-- Hover Plugin-->
+    <link rel="stylesheet" href="css/libs/hover-min.css"/>
+    <!-- Animate Plugin-->
+    <link rel="stylesheet" href="css/libs/animate.css"/>
+    <!-- Owel Carousel Plugin-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
+    <!-- Swipper CSS-->
+    <link rel="stylesheet" href="css/libs/swipper.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css"/>
+    <!-- Fancybox CSS-->
+    <link rel="stylesheet" href="css/libs/jquery.fancybox.min.css"/>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Main SCroll File-->
+    <link rel="stylesheet" href="css/libs/scroll.css"/><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css'>
+    <!-- Main Style File-->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!--RTL File-->
+  </head>
+  <body>
+    <section class="place-your-order-form-page">
+      <div class="navbar-section pb-2">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg px-0 py-3"><a class="navbar-brand m-0" href="index.html"><img src="assets/shared/navbar/logo.png"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="toggle-menu" data-toggle-menu=""><span class="menu__bar"></span><span class="menu__bar"></span><span class="menu__bar"></span></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item"><a class="nav-link" href="portofolio.html">PORTOFOLIO</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link" href="store.html">STORE </a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="about-us.html">ABOUT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+              </ul>
+              <div class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/shared/navbar/localization.png" width="15px" alt="" srcset=""/><span class="mx-2">EN</span></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Deutsch</a>
+                      <div class="dropdown-divider"></div><a class="dropdown-item" href="#">English</a>
+                      <div class="dropdown-divider"></div><a class="dropdown-item lang" href="#">العربية</a>
+                    </div>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="cart.html"><img src="assets/shared/navbar/cart.png" width="20px" alt="" srcset=""/></a></li>
+                  <li class="nav-item dropdown"><a class="nav-link" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/shared/navbar/profile.png" width="20px" alt="" srcset=""/></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="profile.html"> <span>Ali</span></a>
+                      <div class="dropdown-divider"></div><a class="dropdown-item" href="profile.html">My Profile</a><a class="dropdown-item" href="my-orders.html">My Orders</a>
+                      <div class="dropdown-divider"></div><a class="dropdown-item" href="index.html"> <span>Logout</span></a>
+                    </div>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" type="button" data-toggle="modal" data-target="#subscribeModal">SUBSCRIBE</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Subscribe Modal-->
+          <div class="modal fade subscripe-modal" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body text-center">
+                  <div class="img-title"><img src="assets/modals/subscribe.png"/></div>
+                  <div class="body-content">
+                    <h4>Subscribe</h4>
+                    <p>Sign up here to get the latest, updates and special offers delivered directly to your inbox.</p>
+                    <form>
+                      <div class="form-group">
+                        <input class="form-control" id="email-subscribe" type="email" placeholder="ENTER YOUR MAIL ADDRESS"/>
+                      </div>
+                      <div class="form-group">
+                        <button class="hvr-float" data-toggle="modal" data-target="#subscribeRequestModal" data-dismiss="modal">SUBSCRIBE</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Subscribe Request Sent Modal-->
+          <div class="modal fade subscripeRequest-modal" id="subscribeRequestModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body text-center">
+                  <div class="img-title"><img src="assets/modals/subscribe.png"/></div>
+                  <div class="body-content">
+                    <h4>SENT</h4>
+                    <p>Your request has been successfully sent We will replay to your mail as soon as possible</p>
+                    <h5>THANK YOU FOR CHOSSING US !</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-title"> 
+        <header> 
+          <div class="container">
+            <h1 class="wow fadeInUp" data-wow-duration="2s">Place Your Order</h1>
+          </div>
+        </header>
+      </div>
+      <div class="page-content">
+        <article>
+          <div class="form-container">
+            <form action="" role="form">
+              <input id="step2" type="checkbox"/>
+              <input id="step3" type="checkbox"/>
+              <input id="step4" type="checkbox"/>
+              <input id="step5" type="checkbox"/>
+              <input id="step6" type="checkbox"/>
+              <div id="part1">
+                <!-- Start Step Indicator -->
+                <section class="step-parent"> 
+                  <div class="container"> 
+                    <section class="step-indicator">
+                      <div class="step step1 active">
+                        <div class="step-icon">1</div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step2">
+                        <div class="step-icon">2</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">3</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">4</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">5</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">6</div>
+                      </div>
+                    </section>
+                    <div class="step-indicator-para"> 
+                      <h4>Choose your desired service :</h4>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step Indicator -->
+                <!-- Start Step1 Form-->
+                <section class="step1"> 
+                  <div class="container"> 
+                    <div class="services-type">
+                      <div class="row"> 
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a25" type="radio" checked="" name="check-substitution-2"/>
+                            <label class="btn btn-default" for="a25">Logo & Identity</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a50" type="radio" name="check-substitution-2"/>
+                            <label class="btn btn-default" for="a50">Print Design</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a75" type="radio" name="check-substitution-2"/>
+                            <label class="btn btn-default" for="a75">Social Media Design</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a15" type="radio" name="check-substitution-2"/>
+                            <label class="btn btn-default" for="a15">Web & App UI Design</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a55" type="radio" name="check-substitution-2"/>
+                            <label class="btn btn-default" for="a55">Web & Apps Development</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="services-info"> 
+                      <header> 
+                        <h3>Logo & Identity</h3>
+                      </header>
+                      <article>
+                        <p>is the process of creating a strong, positive perception of a company, its products or services in the customer's mind by combining such elements as logo, design, mission statement, and a consistent theme throughout all marketing communications.</p>
+                        <p>You will be able to work in your Brand with us or any elements that you want to develop in your current brand, you can also order a full rebrand to your company if it needs one .</p>
+                      </article>
+                    </div>
+                    <div class="section-action">
+                      <label class="continue" id="continue-step2" for="step2">
+                        <div class="btn"><span class="mx-2">Next</span><img src="assets/icons/right-arrow.png" alt="" srcset=""/></div>
+                      </label>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step1 Form-->
+              </div>
+              <div id="part2">
+                <!-- Start Step Indicator -->
+                <section class="step-parent"> 
+                  <div class="container"> 
+                    <section class="step-indicator">
+                      <div class="step step1 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step2 active">
+                        <div class="step-icon">2</div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3">
+                        <div class="step-icon">3</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">4</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">5</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">6</div>
+                      </div>
+                    </section>
+                    <div class="step-indicator-para"> 
+                      <h4>Choose your desired service :</h4>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step Indicator -->
+                <!-- Start Step2 Form-->
+                <section class="step2">
+                  <div class="container">
+                    <div class="services-type">
+                      <div class="row"> 
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a21" type="radio" checked="checked" name="check-substitution-1"/>
+                            <label class="btn btn-default" for="a21">Logo & Identity</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a22" type="radio" name="check-substitution-1"/>
+                            <label class="btn btn-default" for="a22">Identity Design</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a23" type="radio" name="check-substitution-1"/>
+                            <label class="btn btn-default" for="a23">Rebrand</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-counter my-5">
+                      <div class="row justify-content-between">
+                        <div class="col-lg-6 my-3"> 
+                          <div class="sec">
+                            <div class="number">
+                              <label for="">Versions:</label>
+                              <div class="content">
+                                <button class="minus">-</button>
+                                <input type="text" value="1"/>
+                                <button class="plus">+</button>
+                              </div>
+                            </div>
+                            <div class="number">
+                              <label for="">Rounds of Edits:</label>
+                              <div class="content">
+                                <button class="minus">-</button>
+                                <input type="text" value="1"/>
+                                <button class="plus">+</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 my-3"> 
+                          <div class="categories"> 
+                            <select class="form-control">
+                              <option>Category</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-action">
+                      <label class="back" id="back-step2" for="step2">
+                        <div class="btn" role="button"> <img src="assets/icons/back.png" alt="" srcset=""/><span class="mx-2">Back</span></div>
+                      </label>
+                      <label class="continue" id="continue-step3" for="step3">
+                        <div class="btn" role="button"> <span class="mx-2">Next</span><img src="assets/icons/right-arrow.png" alt="" srcset=""/></div>
+                      </label>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step2 Form-->
+              </div>
+              <div id="part3">
+                <!-- Start Step Indicator -->
+                <section class="step-parent"> 
+                  <div class="container"> 
+                    <section class="step-indicator">
+                      <div class="step step1 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step2 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 active">
+                        <div class="step-icon">3</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">4</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">5</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">6</div>
+                      </div>
+                    </section>
+                    <div class="step-indicator-para"> 
+                      <h4>Please answer these questions :</h4>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step Indicator -->
+                <!-- Start Step3 Form-->
+                <section class="step3">
+                  <div class="container">
+                    <div class="questions-sec"> 
+                      <div class="form-group">
+                        <label for="">What is the name of your business ?</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="">What is your business sector?</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="">What kind of products and / or services do you provide?</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Who is your target market?</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                      </div>
+                    </div>
+                    <div class="section-action">
+                      <label class="back" id="back-step3" for="step3">
+                        <div class="btn"> <img src="assets/icons/back.png" alt="" srcset=""/><span class="mx-2">Back</span></div>
+                      </label>
+                      <label class="continue" id="continue-step4" for="step4">
+                        <div class="btn" role="button"> <span class="mx-2">Next</span><img src="assets/icons/right-arrow.png" alt="" srcset=""/></div>
+                      </label>
+                      <label class="skip ml-3" id="continue-step4" for="step4">
+                        <div class="btn" role="button"> <span class="mx-2">skip</span></div>
+                      </label>
+                    </div>
+                  </div>
+                </section>
+                <!-- Start Step3 Form-->
+              </div>
+              <div id="part4">
+                <!-- Start Step4 Form-->
+                <!-- Start Step Indicator -->
+                <section class="step-parent"> 
+                  <div class="container"> 
+                    <section class="step-indicator">
+                      <div class="step step1 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step2 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 active">
+                        <div class="step-icon">4</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">5</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">6</div>
+                      </div>
+                    </section>
+                    <div class="step-indicator-para"> 
+                      <h4>Which of these styles do you prefer?</h4>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step Indicator -->
+                <section class="step4">
+                  <div class="container">
+                    <div class="services-type">
+                      <div class="row"> 
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a41" type="radio" checked="" name="check-substitution-4"/>
+                            <label class="btn btn-default" for="a41"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a42" type="radio" name="check-substitution-4"/>
+                            <label class="btn btn-default" for="a42"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a43" type="radio" name="check-substitution-4"/>
+                            <label class="btn btn-default" for="a43"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a44" type="radio" name="check-substitution-4"/>
+                            <label class="btn btn-default" for="a44"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a45" type="radio" name="check-substitution-4"/>
+                            <label class="btn btn-default" for="a45"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a46" type="radio" name="check-substitution-4"/>
+                            <label class="btn btn-default" for="a46"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-action">
+                      <label class="back" id="back-step4" for="step4">
+                        <div class="btn"> <img src="assets/icons/back.png" alt="" srcset=""/><span class="mx-2">Back</span></div>
+                      </label>
+                      <label class="continue" id="continue-step5" for="step5">
+                        <div class="btn" role="button"> <span class="mx-2">Next</span><img src="assets/icons/right-arrow.png" alt="" srcset=""/></div>
+                      </label>
+                      <label class="skip ml-3" id="continue-step5" for="step5">
+                        <div class="btn" role="button"> <span class="mx-2">skip</span></div>
+                      </label>
+                    </div>
+                  </div>
+                </section>
+                <!-- Start Step4 Form-->
+              </div>
+              <div id="part5">
+                <!-- Start Step5 Form-->
+                <!-- Start Step Indicator -->
+                <section class="step-parent"> 
+                  <div class="container"> 
+                    <section class="step-indicator">
+                      <div class="step step1 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step2 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 finished">
+                        <div class="step-icon"> <img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 active">
+                        <div class="step-icon">5</div>
+                      </div>
+                      <div class="indicator-line"></div>
+                      <div class="step step3">
+                        <div class="step-icon">6</div>
+                      </div>
+                    </section>
+                    <div class="step-indicator-para"> 
+                      <h4>Which of these styles do you prefer?</h4>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step Indicator-->
+                <section class="step5">
+                  <div class="container">
+                    <div class="services-type">
+                      <div class="row"> 
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a51" type="radio" checked="" name="check-substitution-5"/>
+                            <label class="btn btn-default" for="a51"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a52" type="radio" name="check-substitution-5"/>
+                            <label class="btn btn-default" for="a52"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a53" type="radio" name="check-substitution-5"/>
+                            <label class="btn btn-default" for="a53"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a54" type="radio" name="check-substitution-5"/>
+                            <label class="btn btn-default" for="a54"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a55" type="radio" name="check-substitution-5"/>
+                            <label class="btn btn-default" for="a55"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                          <div class="service h-100">
+                            <input id="a56" type="radio" name="check-substitution-5"/>
+                            <label class="btn btn-default" for="a56"> <img class="w-100" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="" srcset=""/>
+                              <div class="checked-icon"> <img src="assets/icons/checked.png" alt="" srcset=""/></div>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-action">
+                      <label class="back" id="back-step5" for="step5">
+                        <div class="btn"> <img src="assets/icons/back.png" alt="" srcset=""/><span class="mx-2">Back</span></div>
+                      </label>
+                      <label class="continue" id="continue-step6" for="step6">
+                        <div class="btn" role="button"> <span class="mx-2">Next</span><img src="assets/icons/right-arrow.png" alt="" srcset=""/></div>
+                      </label>
+                      <label class="skip ml-3" id="continue-step6" for="step6">
+                        <div class="btn" role="button"> <span class="mx-2">skip</span></div>
+                      </label>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <!-- End Step5 Form-->
+              <div id="part6">
+                <!-- Start Step6 Form-->
+                <!-- Start Step Indicator -->
+                <section class="step-parent"> 
+                  <div class="container"> 
+                    <section class="step-indicator">
+                      <div class="step step1 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step2 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 finished">
+                        <div class="step-icon"><img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 finished">
+                        <div class="step-icon"> <img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 finished">
+                        <div class="step-icon"> <img src="assets/icons/check.png" alt="" srcset=""/></div>
+                      </div>
+                      <div class="indicator-line active"></div>
+                      <div class="step step3 active">
+                        <div class="step-icon">6</div>
+                      </div>
+                    </section>
+                    <div class="step-indicator-para"> 
+                      <h4>Add any addtional info or files:</h4>
+                    </div>
+                  </div>
+                </section>
+                <!-- End Step Indicator-->
+                <section class="step6">
+                  <div class="container">
+                    <div class="questions-sec"> 
+                      <div class="form-group">
+                        <label for="">Is there any additional information you’d like to add which would help?</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                      </div>
+                    </div>
+                    <div class="upload-file"> 
+                      <p>You can attach any files that you want us to look at when working on your request ( samples , mood borads , logos , documents , content and any thing will help us get your request done )</p>
+                      <div class="file-input text-center">
+                        <input class="choose" type="file" name="avatar" accept="image/*"/><span class="button text-uppercase mt-4"><img src="assets/icons/upload.png"/>upload image</span><span class="label">preview files</span>
+                      </div><img id="preview" src=""/>
+                    </div>
+                    <div class="section-action">
+                      <label class="back" id="back-step6" for="step6">
+                        <div class="btn"> <img src="assets/icons/back.png" alt="" srcset=""/><span class="mx-2">Back</span></div>
+                      </label>
+                      <label class="add-btn ml-3">
+                        <button type=""><img src="assets/icons/cart.png" alt="" srcset=""/><span class="mx-2">Add to Cart</span></button>
+                      </label>
+                      <label class="submit-btn ml-3">
+                        <button type="submit">Sumbit Order</button>
+                      </label>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </form>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="footer-section">
+      <div class="footer-links">
+        <div class="container">
+          <div class="content">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-md-4 col-sm-3 mb-3">
+                <div class="logo"><img src="assets/shared/footer/footer-logo.svg"/></div>
+              </div>
+              <div class="col-lg-4 col-md-8 col-sm-9 mb-3">
+                <div class="address">
+                  <ul class="list-unstyled">
+                    <li>Munich - Germany</li>
+                    <li>Cairo Branch - JizahKing ALfaisal St.</li>
+                    <li><a href="tel:+20 10 62 91 56 12">+20 10 62 91 56 12</a></li>
+                    <li><a href="mailto:service@crepixa.com">service@crepixa.com</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-3">
+                <div class="links">
+                  <ul class="list-unstyled row m-0 p-0-3">
+                    <li class="col-6 p-0"><a href="index.html">HOME</a></li>
+                    <li class="col-6 p-0"><a href="about-us.html">ABOUT US</a></li>
+                    <li class="col-6 p-0"><a href="portofolio.html">PORTOFOLIO</a></li>
+                    <li class="col-6 p-0"><a href="blog.html">BLOG</a></li>
+                    <li class="col-6 p-0"><a href="contact.html">CONTACT</a></li>
+                    <li class="col-6 p-0"><a href="services.html">SERVICES</a></li>
+                    <li class="col-6 p-0"><a href="store.html">STORE</a></li>
+                    <li class="col-6 p-0"><a type="button" data-toggle="modal" data-target="#subscribeModal">SUBSCRIBE</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copywright">
+            <p>© 2020 Crepixa Studio. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+      <div class="social-icons">
+        <div class="contetnt">
+          <div class="container"> 
+            <div class="row"> 
+              <div class="col-lg-6 order-2 order-lg-1">
+                <div class="left-side"> 
+                  <ul class="list-unstyled m-0">
+                    <li><a href="#">NEWESLETTER</a></li>
+                    <li><a href="#">Impressum</a></li>
+                    <li>
+                      <div class="dropdown"><a class="dropdown-toggle" id="dropdownMenuLink" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Privacy and Terms</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"><a class="dropdown-item" href="#">Privacy Policy</a>
+                          <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Terms and Conditions </a>
+                          <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Cookie Policy</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2">
+                <div class="right-side">
+                  <ul class="list-unstyled social m-0">
+                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="scrollTop" id="js-scroll-top"><span class="scroll"><img src="assets/icons/arrow.svg"/></span></section>
+    <!-- jQuery, Popper.js, and Bootstrap JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Owel Carousel Plgin-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- Fancybox File-->
+    <script src="js/libs/jquery.fancybox.min.js"></script>
+    <!-- Main Swiper File-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+    <!-- Main JavaScript File-->
+    <script src="js/libs/scroll.js"></script>
+    <!-- Wow Js Plugin-->
+    <script src="js/libs/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- Main Scroll File-->
+    <script src="js/main.js"></script>
+    <script>new WOW().init();</script>
+  </body>
+</html>
